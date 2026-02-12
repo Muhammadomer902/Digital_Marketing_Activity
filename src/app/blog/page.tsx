@@ -13,31 +13,49 @@ type BlogPost = {
 
 const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "crafting-digital-experiences-that-convert",
-    title: "Crafting Digital Experiences That Actually Convert",
+    slug: "the-importance-of-digital-solutions-in-modern-business",
+    title: "The Importance of Digital Solutions in Modern Business",
     excerpt:
-      "From first impression to final click, here’s how we design and build digital products that turn visitors into loyal customers.",
-    date: "Jan 20, 2025",
-    readTime: "5 min read",
-    tag: "Product Strategy",
+      "In today’s fast-moving world, businesses must adopt digital solutions to remain competitive and achieve sustainable growth.",
+    date: "Jan 10, 2025",
+    readTime: "4 min read",
+    tag: "Digital Strategy",
   },
   {
-    slug: "why-speed-and-design-matter-together",
-    title: "Why Speed and Design Matter Together",
+    slug: "how-mobile-app-development-drives-business-growth",
+    title: "How Mobile App Development Drives Business Growth",
     excerpt:
-      "A beautiful interface isn’t enough. We break down why performance, UX, and engineering need to move in sync.",
+      "The rise of smartphones has made mobile app development one of the most powerful tools for businesses to connect with customers.",
+    date: "Jan 18, 2025",
+    readTime: "5 min read",
+    tag: "Mobile Apps",
+  },
+  {
+    slug: "building-client-centric-digital-products",
+    title: "Building Client-Centric Digital Products",
+    excerpt:
+      "Creating successful digital products requires a client-centric approach that keeps real customer needs at the center.",
+    date: "Jan 26, 2025",
+    readTime: "5 min read",
+    tag: "Product Development",
+  },
+  {
+    slug: "the-role-of-transparent-communication-in-project-success",
+    title: "The Role of Transparent Communication in Project Success",
+    excerpt:
+      "Transparent communication between teams and clients is one of the most important factors behind successful project development.",
     date: "Feb 02, 2025",
     readTime: "4 min read",
-    tag: "Performance",
+    tag: "Collaboration",
   },
   {
-    slug: "from-idea-to-launch-with-duofast",
-    title: "From Idea to Launch with DuoFast",
+    slug: "transforming-ideas-into-reality-with-skilled-development-teams",
+    title: "Transforming Ideas into Reality with Skilled Development Teams",
     excerpt:
-      "Our end‑to‑end process for helping founders and teams ship impactful digital products—on time and with confidence.",
+      "Every successful product begins with an idea—and the right development team turns that idea into a powerful digital reality.",
     date: "Feb 10, 2025",
     readTime: "6 min read",
-    tag: "Process",
+    tag: "Teamwork",
   },
 ];
 
