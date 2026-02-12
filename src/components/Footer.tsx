@@ -91,12 +91,13 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="mb-4 text-base font-bold">Company</h3>
             <ul className="space-y-3 text-sm text-white/80 font-semibold">
-              {[
-                { href: "/", label: "Home" },
-                { href: "/about", label: "About" },
-                { href: "/services", label: "Services" },
-                { href: "/contact", label: "Contact" },
-              ].map((item) => {
+            {[
+              { href: "/", label: "Home" },
+              { href: "/about", label: "About" },
+              { href: "/services", label: "Services" },
+              { href: "/blog", label: "Blog" },
+              { href: "/contact", label: "Contact" },
+            ].map((item) => {
                 const isActive = pathname === item.href; // Use pathname variable
                 return (
                   <li key={item.href}>
